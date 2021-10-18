@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  margin: 1em 10em;
+  background-color: purple;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-style: italic;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+article {
+  background-color: lightgray;
+  border: 2px solid black;
+  padding: 0 4em;
+  border-radius: 0.5em;
+}
+
+p::first-letter {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1em;
+}
